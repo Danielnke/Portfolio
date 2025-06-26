@@ -14,6 +14,7 @@ All notable changes to this project will be documented in this file.
 -   **Project Configuration:**
     -   `next.config.js`: Removed deprecated and unrecognized options (`legacyBrowsers`, `swcFileReading`, `appDir`, `optimizeFonts`, `swcMinify`) to resolve build warnings.
     -   `tsconfig.json`: Removed the unknown compiler option `allowImportingTsExtensions` to fix a TypeScript error.
+    -   `.eslintignore`: Excluded `next.config.js`, `postcss.config.js`, `stylelint.config.js`, and `tailwind.config.js` from ESLint to resolve parsing errors for these config files.
 
 -   **Content & Copy Updates:**
     -   **`README.md`**: Completely overhauled the content to serve as the portfolio's main description, reflecting the new focus on AI Automation.

@@ -17,11 +17,13 @@ const About = () => {
                     }
                     wordSpace={"mr-[14px]"}
                     charSpace={"mr-[0.001em]"}
+                    stagger={0.035}
                 />
 
                 <div className="mx-auto flex w-[100%] flex-col lg:max-w-[1200px] lg:flex-row lg:gap-20">
                     <div className="mb-10 flex w-[100%] flex-col gap-4 text-[18px] font-medium  leading-relaxed tracking-wide text-[#e4ded7] md:mb-16 md:gap-6 md:text-[20px] md:leading-relaxed lg:mb-16  lg:max-w-[90%] lg:text-[24px] ">
-                        <AnimatedBody text="As an AI Automation Specialist, I specialize in integrating artificial intelligence into business systems. My goal is to streamline your operations and unlock new opportunities for growth. Whether it's through developing intelligent AI agents, automating repetitive tasks, or creating sophisticated AI chatbots and voice assistants, I provide end-to-end solutions that deliver measurable results." />
+                        <AnimatedBody text="My name is Daniel, and I'm a passionate front-end developer and designer with a flair for creating immersive, user-centric web experiences. I thrive on challenges and am always eager to learn new technologies and techniques to push the boundaries of what's possible on the web." />
+                        <AnimatedBody text="When I'm not coding, I enjoy exploring new design trends, contributing to open-source projects, and experimenting with 3D modeling and animation. I believe that the best websites are not only functional but also beautiful, and I strive to bring that philosophy to every project I work on." />
                     </div>
                 </div>
             </div>

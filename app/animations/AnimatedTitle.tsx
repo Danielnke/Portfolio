@@ -52,6 +52,8 @@ export default function AnimatedTitle({
         },
     };
 
+    const stagger = 0.05;
+
     return (
         <h2 aria-label={text} className={className}>
             {text.split(" ").map((word, index) => {
@@ -65,7 +67,7 @@ export default function AnimatedTitle({
                         variants={wordAnimation}
                         transition={{
                             delayChildren: index * 0.25,
-                            staggerChildren: 0.05,
+                            staggerChildren: stagger,
                         }}
                         className={`inline-block whitespace-nowrap ${wordSpace}`}
                     >

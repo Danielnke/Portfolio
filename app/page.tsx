@@ -14,23 +14,18 @@ import About from "./sections/About";
 import Work from "./sections/Work";
 import Contact from "./sections/Contact";
 import Footer from "./sections/Footer";
-import Tools from "./sections/Tools.tsx";
+import Tools from "./sections/Tools";
 
 export default function Home() {
-
-    const [isMobile, setIsMobile] = useState(false);
 
     useEffectOnce(() => {
         window.scrollTo({
             top: 0,
             left: 0,
         });
-        setIsMobile(window.innerWidth < 768);
     });
 
-    useEventListener('resize', () => {
-        setIsMobile(window.innerWidth < 768);
-    });
+    useEventListener('resize', () => {});
 
     useBlobity(
         {

@@ -7,9 +7,11 @@ import {
     SiGithub,SiPostgresql,SiMysql,
     SiJavascript, SiNextdotjs, SiReact, SiTypescript,
     SiMongodb,
-    SiNodedotjs
+    SiNodedotjs,
+    SiTailwindcss,
+    SiFramer
 } from "react-icons/si";
-import AnimatedTools from "../animations/AnimatedTools.tsx";
+import AnimatedTools from "../animations/AnimatedTools";
 
 const Tools = () => {
     return (
@@ -36,8 +38,9 @@ const Tools = () => {
                                 <SiTypescript size={50}/>
                                 <SiJavascript size={50}/>
                                 <SiReact size={50}/>
-                                
                                 <SiNextdotjs size={50}/>
+                                <SiTailwindcss size={50}/>
+                                <SiFramer size={50}/>
                             </AnimatedTools>
                         </div>
                     </div>

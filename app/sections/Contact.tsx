@@ -65,7 +65,7 @@ const Contact = () => {
                             />
                         </Link>
                         <Link
-                            href="https://www.linkedin.com/in/karthikmudunuri/"
+                            href="https://www.linkedin.com/in/dahnielson/"
                             target="_blank"
                             aria-label="View linkedin Profile"
                         >
@@ -76,6 +76,7 @@ const Contact = () => {
                                 }
                                 wordSpace={"mr-[0.25em]"}
                                 charSpace={"mr-[0.01em]"}
+                                stagger={0.03}
                             />
                         </Link>
                        

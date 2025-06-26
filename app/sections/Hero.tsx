@@ -26,6 +26,7 @@ const Hero = () => {
                         }
                         wordSpace={"mr-[10px]"}
                         charSpace={"mr-[0.001em]"}
+                        stagger={0.035}
                     />
                     <AnimatedBody
                         text={"I build intelligent AI solutions to automate and scale your business."}

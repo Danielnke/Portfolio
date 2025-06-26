@@ -15,7 +15,7 @@ const NavBar = () => {
     };
 
     return (
-        <nav className="nowrap fixed bottom-10 left-0 right-0 z-50 my-0 mx-auto flex items-center justify-center gap-1 px-1 py-1 text-[#e4ded7] sm:w-[383.3px] md:p-2 lg:w-[391.3px]">
+        <nav className="nowrap fixed bottom-10 left-0 right-0 z-50 my-0 mx-auto flex items-center justify-center gap-1 px-1 py-1 text-[#e4ded7] sm:w-[483.3px] md:p-2 lg:w-[491.3px]">
             <Container
                 width="100%"
                 height="50px"
@@ -25,7 +25,7 @@ const NavBar = () => {
                 left="0px"
                 angle={0}
             >
-                <nav className="nowrap fixed bottom-30 left-0 right-0 z-50 my-0 mx-auto flex items-center justify-center gap-1 rounded-lg px-1 py-1 text-[#e4ded7] sm:w-[383.3px] md:p-2 lg:w-[391.3px]">
+                <nav className="nowrap fixed bottom-30 left-0 right-0 z-50 my-0 mx-auto flex items-center justify-center gap-1 rounded-lg px-1 py-1 text-[#e4ded7] sm:w-[483.3px] md:p-2 lg:w-[491.3px]">
                     <Link
                         href="#home"
                         data-blobity-magnetic="false"
@@ -67,6 +67,17 @@ const NavBar = () => {
                     >
                         <h4 className="py-2 px-2 text-[12px] sm:px-4 sm:text-[14px] md:py-1 md:px-4">
               CONTACT
+                        </h4>
+                    </Link>
+
+                    <Link
+                        href="/resume.pdf"
+                        target="_blank"
+                        data-blobity-magnetic="false"
+                        aria-label="Download Resume"
+                    >
+                        <h4 className="py-2 px-2 text-[12px] sm:px-4 sm:text-[14px] md:py-1 md:px-4">
+              RESUME
                         </h4>
                     </Link>
                 </nav>
